@@ -7,6 +7,8 @@
 qettlhup is [Klingon](http://klingonska.org/dict/?q=sauce) for "Sauce".
 
 ## Getting Started
+This really isn't for the faint of heart, but if you're needing to test 20-30 browsers at a time and don't want to manually pass in each one indivdually, after a bit of setup, this will make those tests a breeze!
+
 This plugin requires Grunt `~0.4.1`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
@@ -72,7 +74,8 @@ The path to your main test file
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
+This will pass a codename of each browser to your test. In your test, you can grab that argument variable in order to link to the proper OS and browser. You can find an example of how I handled this in Ruby in the examples directory. I'm sure the same concept is repeatable in other languages using Selenium. 
+
 
 ```js
 qettlhup: {
