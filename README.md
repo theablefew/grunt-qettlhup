@@ -2,6 +2,10 @@
 
 > An easy way to run automated browser tests in Sauce Labs from a JSON object
 
+## What does 'qettlhup' mean?
+
+qettlhup is [Klingon](http://klingonska.org/dict/?q=sauce) for "Sauce".
+
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
 
