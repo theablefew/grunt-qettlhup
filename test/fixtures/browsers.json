@@ -1,0 +1,816 @@
+{
+  "Windows 2003": {
+    "Opera": [
+      {
+        "version": "11.64.",
+        "manual_available": false,
+        "short_version": "11",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "12.12.",
+        "manual_available": false,
+        "short_version": "12",
+        "full_os": "Windows 2003"
+      }
+    ],
+    "Internet Explorer": [
+      {
+        "version": "6.0.3790.3959.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "8.0.6001.18702.",
+        "manual_available": true,
+        "short_version": "8",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "7.0.5730.13.",
+        "manual_available": true,
+        "short_version": "7",
+        "full_os": "Windows 2003"
+      }
+    ],
+    "Firefox": [
+      {
+        "version": "3.0.19.",
+        "manual_available": true,
+        "short_version": "3.0",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "3.5.19.",
+        "manual_available": true,
+        "short_version": "3.5",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "3.6.28.",
+        "manual_available": true,
+        "short_version": "3.6",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "4.0.1.",
+        "manual_available": true,
+        "short_version": "4",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "5.0.1.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "6.0.2.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "7.0.",
+        "manual_available": true,
+        "short_version": "7",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "8.0.1.",
+        "manual_available": true,
+        "short_version": "8",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "9.0.1.",
+        "manual_available": true,
+        "short_version": "9",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "10.0.2.",
+        "manual_available": true,
+        "short_version": "10",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "11.0.",
+        "manual_available": true,
+        "short_version": "11",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "12.0.",
+        "manual_available": true,
+        "short_version": "12",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "13.0.1.",
+        "manual_available": true,
+        "short_version": "13",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "14.0.1.",
+        "manual_available": true,
+        "short_version": "14",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "15.0.1.",
+        "manual_available": true,
+        "short_version": "15",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "16.0.1.",
+        "manual_available": true,
+        "short_version": "16",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "17.0.1.",
+        "manual_available": true,
+        "short_version": "17",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "18.0.2.",
+        "manual_available": true,
+        "short_version": "18",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "19.0.",
+        "manual_available": true,
+        "short_version": "19",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "20.0.",
+        "manual_available": true,
+        "short_version": "20",
+        "full_os": "Windows 2003"
+      },
+      {
+        "version": "21.0b1.",
+        "manual_available": true,
+        "short_version": "21",
+        "full_os": "Windows 2003"
+      }
+    ],
+    "Google Chrome": [
+      {
+        "version": "24.0.1312.56.",
+        "manual_available": true,
+        "short_version": "",
+        "full_os": "Windows 2003"
+      }
+    ]
+  },
+  "Mac": {
+    "iPad": [
+      {
+        "version": "4.3.",
+        "manual_available": true,
+        "short_version": "4.3",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "5.0.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "5.1.",
+        "manual_available": true,
+        "short_version": "5.1",
+        "full_os": "Mac 10.8"
+      },
+      {
+        "version": "6.0.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Mac 10.8"
+      }
+    ],
+    "Google Chrome": [
+      {
+        "version": "24.0.1312.57.",
+        "manual_available": true,
+        "short_version": "",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "24.0.1312.57.",
+        "manual_available": true,
+        "short_version": "",
+        "full_os": "Mac 10.8"
+      }
+    ],
+    "Firefox": [
+      {
+        "version": "4.0.1.",
+        "manual_available": true,
+        "short_version": "4",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "5.0.1.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "6.0.2.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "7.0.1.",
+        "manual_available": true,
+        "short_version": "7",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "8.0.1.",
+        "manual_available": true,
+        "short_version": "8",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "9.0.",
+        "manual_available": true,
+        "short_version": "9",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "10.0.1.",
+        "manual_available": true,
+        "short_version": "10",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "11.0.",
+        "manual_available": true,
+        "short_version": "11",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "12.0.",
+        "manual_available": true,
+        "short_version": "12",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "13.0.1.",
+        "manual_available": true,
+        "short_version": "13",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "14.0.1.",
+        "manual_available": true,
+        "short_version": "14",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "15.0.1.",
+        "manual_available": true,
+        "short_version": "15",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "16.0.2.",
+        "manual_available": true,
+        "short_version": "16",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "17.0.1.",
+        "manual_available": true,
+        "short_version": "17",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "18.0.2.",
+        "manual_available": true,
+        "short_version": "18",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "19.0.",
+        "manual_available": true,
+        "short_version": "19",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "20.0b1.",
+        "manual_available": true,
+        "short_version": "20",
+        "full_os": "Mac 10.6"
+      }
+    ],
+    "iPhone": [
+      {
+        "version": "4.3.",
+        "manual_available": true,
+        "short_version": "4.3",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "5.0.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "5.1.",
+        "manual_available": true,
+        "short_version": "5.1",
+        "full_os": "Mac 10.8"
+      },
+      {
+        "version": "6.0.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Mac 10.8"
+      }
+    ],
+    "Safari": [
+      {
+        "version": "5.1.7.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Mac 10.6"
+      },
+      {
+        "version": "6.0.1.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Mac 10.8"
+      }
+    ]
+  },
+  "Windows 2008": {
+    "Opera": [
+      {
+        "version": "11.64.",
+        "manual_available": false,
+        "short_version": "11",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "12.12.",
+        "manual_available": false,
+        "short_version": "12",
+        "full_os": "Windows 2008"
+      }
+    ],
+    "Internet Explorer": [
+      {
+        "version": "9.0.8112.16421.",
+        "manual_available": true,
+        "short_version": "9",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "8.0.7601.17514.",
+        "manual_available": true,
+        "short_version": "8",
+        "full_os": "Windows 2008"
+      }
+    ],
+    "Firefox": [
+      {
+        "version": "3.0.19.",
+        "manual_available": true,
+        "short_version": "3.0",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "3.5.19.",
+        "manual_available": true,
+        "short_version": "3.5",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "3.6.28.",
+        "manual_available": true,
+        "short_version": "3.6",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "4.0.1.",
+        "manual_available": true,
+        "short_version": "4",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "5.0.1.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "6.0.2.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "7.0.",
+        "manual_available": true,
+        "short_version": "7",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "8.0.1.",
+        "manual_available": true,
+        "short_version": "8",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "9.0.1.",
+        "manual_available": true,
+        "short_version": "9",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "10.0.2.",
+        "manual_available": true,
+        "short_version": "10",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "11.0.",
+        "manual_available": true,
+        "short_version": "11",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "12.0.",
+        "manual_available": true,
+        "short_version": "12",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "13.0.1.",
+        "manual_available": true,
+        "short_version": "13",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "14.0.1.",
+        "manual_available": true,
+        "short_version": "14",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "15.0.1.",
+        "manual_available": true,
+        "short_version": "15",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "16.0.1.",
+        "manual_available": true,
+        "short_version": "16",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "17.0.1.",
+        "manual_available": true,
+        "short_version": "17",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "18.0.2.",
+        "manual_available": true,
+        "short_version": "18",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "19.0.",
+        "manual_available": true,
+        "short_version": "19",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "20.0.",
+        "manual_available": true,
+        "short_version": "20",
+        "full_os": "Windows 2008"
+      },
+      {
+        "version": "21.0b1.",
+        "manual_available": true,
+        "short_version": "21",
+        "full_os": "Windows 2008"
+      }
+    ],
+    "Safari": [
+      {
+        "version": "5.1.7.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Windows 2008"
+      }
+    ],
+    "Google Chrome": [
+      {
+        "version": "24.0.1312.57.",
+        "manual_available": true,
+        "short_version": "",
+        "full_os": "Windows 2008"
+      }
+    ]
+  },
+  "Windows 2012": {
+    "Internet Explorer": [
+      {
+        "version": "10.0.9200.16519.",
+        "manual_available": true,
+        "short_version": "10",
+        "full_os": "Windows 2012"
+      }
+    ],
+    "Firefox": [
+      {
+        "version": "3.0.19.",
+        "manual_available": true,
+        "short_version": "3.0",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "3.5.19.",
+        "manual_available": true,
+        "short_version": "3.5",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "3.6.28.",
+        "manual_available": true,
+        "short_version": "3.6",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "4.0.1.",
+        "manual_available": true,
+        "short_version": "4",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "5.0.1.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "6.0.2.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "7.0.",
+        "manual_available": true,
+        "short_version": "7",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "8.0.1.",
+        "manual_available": true,
+        "short_version": "8",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "9.0.1.",
+        "manual_available": true,
+        "short_version": "9",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "10.0.2.",
+        "manual_available": true,
+        "short_version": "10",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "11.0.",
+        "manual_available": true,
+        "short_version": "11",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "12.0.",
+        "manual_available": true,
+        "short_version": "12",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "13.0.1.",
+        "manual_available": true,
+        "short_version": "13",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "14.0.1.",
+        "manual_available": true,
+        "short_version": "14",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "15.0.1.",
+        "manual_available": true,
+        "short_version": "15",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "16.0.1.",
+        "manual_available": true,
+        "short_version": "16",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "17.0.1.",
+        "manual_available": true,
+        "short_version": "17",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "18.0.2.",
+        "manual_available": true,
+        "short_version": "18",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "19.0.",
+        "manual_available": true,
+        "short_version": "19",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "20.0.",
+        "manual_available": true,
+        "short_version": "20",
+        "full_os": "Windows 2012"
+      },
+      {
+        "version": "21.0b1.",
+        "manual_available": true,
+        "short_version": "21",
+        "full_os": "Windows 2012"
+      }
+    ]
+  },
+  "Linux": {
+    "Opera": [
+      {
+        "version": "12.14.",
+        "manual_available": false,
+        "short_version": "12",
+        "full_os": "Linux"
+      }
+    ],
+    "Google Chrome": [
+      {
+        "version": "25.0.1364.97.",
+        "manual_available": true,
+        "short_version": "",
+        "full_os": "Linux"
+      }
+    ],
+    "Android": [
+      {
+        "version": "4.0.4.",
+        "manual_available": true,
+        "short_version": "4",
+        "full_os": "Linux"
+      }
+    ],
+    "Firefox": [
+      {
+        "version": "3.6.28.",
+        "manual_available": true,
+        "short_version": "3.6",
+        "full_os": "Linux"
+      },
+      {
+        "version": "4.0.1.",
+        "manual_available": true,
+        "short_version": "4",
+        "full_os": "Linux"
+      },
+      {
+        "version": "5.0.1.",
+        "manual_available": true,
+        "short_version": "5",
+        "full_os": "Linux"
+      },
+      {
+        "version": "6.0.2.",
+        "manual_available": true,
+        "short_version": "6",
+        "full_os": "Linux"
+      },
+      {
+        "version": "7.0.1.",
+        "manual_available": true,
+        "short_version": "7",
+        "full_os": "Linux"
+      },
+      {
+        "version": "8.0.1.",
+        "manual_available": true,
+        "short_version": "8",
+        "full_os": "Linux"
+      },
+      {
+        "version": "9.0.1.",
+        "manual_available": true,
+        "short_version": "9",
+        "full_os": "Linux"
+      },
+      {
+        "version": "10.0.",
+        "manual_available": true,
+        "short_version": "10",
+        "full_os": "Linux"
+      },
+      {
+        "version": "11.0.",
+        "manual_available": true,
+        "short_version": "11",
+        "full_os": "Linux"
+      },
+      {
+        "version": "12.0.",
+        "manual_available": true,
+        "short_version": "12",
+        "full_os": "Linux"
+      },
+      {
+        "version": "13.0.1.",
+        "manual_available": true,
+        "short_version": "13",
+        "full_os": "Linux"
+      },
+      {
+        "version": "14.0.1.",
+        "manual_available": true,
+        "short_version": "14",
+        "full_os": "Linux"
+      },
+      {
+        "version": "15.0.1.",
+        "manual_available": true,
+        "short_version": "15",
+        "full_os": "Linux"
+      },
+      {
+        "version": "16.0.1.",
+        "manual_available": true,
+        "short_version": "16",
+        "full_os": "Linux"
+      },
+      {
+        "version": "17.0.1.",
+        "manual_available": true,
+        "short_version": "17",
+        "full_os": "Linux"
+      },
+      {
+        "version": "18.0.2.",
+        "manual_available": true,
+        "short_version": "18",
+        "full_os": "Linux"
+      },
+      {
+        "version": "19.0.",
+        "manual_available": true,
+        "short_version": "19",
+        "full_os": "Linux"
+      },
+      {
+        "version": "20.0b1.",
+        "manual_available": true,
+        "short_version": "20",
+        "full_os": "Linux"
+      }
+    ],
+    "Lynx": [
+      {
+        "version": "2.8.7.",
+        "manual_available": true,
+        "short_version": "2.8.7",
+        "full_os": "Linux"
+      }
+    ]
+  }
+}
