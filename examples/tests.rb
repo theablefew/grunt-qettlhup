@@ -25,7 +25,7 @@ class ConnectionCheckTest < CapybaraTestCase
     @host = HostSession.new(:host, self)
     @host.visit "http://www.google.com/"
     @host.action do
-      page.has_css?("span", text: "Google Search")
+      assert page.has_css?("span", text: "Google Search")
     end
   end
 end
