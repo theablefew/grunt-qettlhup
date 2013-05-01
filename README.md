@@ -7,6 +7,8 @@
 qettlhup is [Klingon](http://klingonska.org/dict/?q=sauce) for "Sauce".
 
 ## Getting Started
+This really isn't for the faint of heart, but if you're needing to test 20-30 browsers at a time and don't want to manually pass in each one indivdually, after a bit of setup, this will make those tests a breeze!
+
 This plugin requires Grunt `~0.4.1`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
@@ -28,15 +30,13 @@ In your project's Gruntfile, add a section named `qettlhup` to the data object p
 
 ```js
 qettlhup: {
-  options: {
-    username: '',
-    access_key: '',
+  dist: {
     test: {
       lang: '',
       path: ''
-    }
-  },
-  files: ''
+    },
+    json: ''
+  }
 }
 ```
 
@@ -45,25 +45,13 @@ _qettlhup is expecting the JSON format to follow this nesting & naming_
 
 ### Options
 
-#### options.username
-Type: `String`  
-Default value: `''`
-
-The username for your Sauce Labs account
-
-#### options.punctuation
-Type: `String`  
-Default value: `''`
-
-The provided access code to your Sauce Labs account
-
-#### options.test.lang
+#### test.lang
 Type: `String`  
 Default value: `''`
 
 The processor for your Selenium tests
 
-#### options.test.path
+#### test.path
 Type: `String`  
 Default value: `''`
 
@@ -72,19 +60,26 @@ The path to your main test file
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
+This will pass a codename of each browser to your test. In your test, you can grab that argument variable in order to link to the proper OS and browser. You can find an example of how I handled this in Ruby in the examples directory. I'm sure the same concept is repeatable in other languages using Selenium. 
+
+You can also pass multiple objects to qettlhup for different tests, different JSON files, whatever.
 
 ```js
 qettlhup: {
-  options: {
-    username: 'qettlhup',
-    access_key: '123-abc-098-zyx',
+  modern: {
     test: {
       lang: 'ruby',
-      path: 'spec/tests.rb'
-    }
+      path: 'examples/tests.rb'
+    },
+    json: 'test/fixtures/browsers-modern.json'
   },
-  files: 'spec/assets/BrowserList.json'
+  all: {
+    test: {
+      lang: 'ruby',
+      path: 'examples/tests.rb'
+    },
+    json: 'test/fixtures/browsers.json'
+  }
 }
 ```
 
@@ -93,7 +88,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## TODO
  * Add proper tests
- * Add ability to run different JSON files against different tests
 
 ## Release History
+ * __2013/05/01__ - _0.2.0_ - Adding support for multiple JSON files, rebuilding code architecture, adding example test script 
  * __2013/04/30__ - _0.1.0_ - Initial functional release 

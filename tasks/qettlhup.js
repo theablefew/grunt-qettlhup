@@ -26,62 +26,58 @@ module.exports = function(grunt) {
     quD.stderr.pipe(process.stderr);
   }
 
-
   grunt.registerMultiTask('qettlhup', 'Test Browsers in Sauce Labs', function() {
     // Merge task-specific and/or target-specific options with these defaults.
-    var options = this.options();
-    var browserArray = [];
-    var qettlhup = this;
+    var browserArray,
+        command,
+        spawnReturn,
+        loadArray,
+        qettlhup = this.data,
+        json = qettlhup.json;
 
-    // Iterate over all specified file groups.
-    grunt.util.async.forEachSeries(this.files, function(f, next) {
+    command = function(i) {
+      return {
+        cmd: qettlhup.test.lang,
+        args: [qettlhup.test.path, browserArray[i]]
+      };
+    };
 
-      var src = f.src.filter(function(filepath) {
-        // Warn on and remove invalid source files (if nonull was set).
-        if (!grunt.file.exists(filepath)) {
-          grunt.log.warn('Source file "' + filepath + '" not found.');
-          return false;
-        } else {
-          return true;
-        }
-      }).map(function(filepath) {
-        var source = grunt.file.readJSON(filepath);
+    spawnReturn = function(i){
+      if(typeof i === "number") {
+        if(i < browserArray.length)
+          spawn(src, command(i), i, spawnReturn);
+        else
+          grunt.log.ok('All Browser Tests Completed');
+      } else {
+        grunt.log.error(i);
+      }
+    };
 
-        for(var os in source) {
-          for(var browsers in source[os]) {
-            for(var i=0, browser=source[os][browsers]; i<browser.length; i++) {
-              var full = os + ' - ' + browsers + ' - ' + browser[i].short_version;
-              var ident = (os + '' + browsers + '' + browser[i].short_version).toLowerCase().replace(/ /g, '');
+    loadArray = function(source) {
+      var array=[];
+      for(var os in source) {
+        for(var browsers in source[os]) {
+          for(var i=0, browser=source[os][browsers]; i<browser.length; i++) {
+            var full = os + ' - ' + browsers + ' - ' + browser[i].short_version;
+            var ident = (os + '' + browsers + '' + browser[i].short_version).toLowerCase().replace(/ /g, '');
 
-              browserArray.push(ident);
-            }
+            array.push(ident);
           }
         }
-
-        return source;
-      });
-
-      var command = function(i) {
-        return {
-          cmd: options.test.lang,
-          args: [options.test.path, browserArray[i]]
-        };
       }
+      return array;
+    }
 
-      var spawnReturn = function(i){
-        if(typeof i === "number") {
-          if(i < browserArray.length)
-            spawn(src, command(i), i, spawnReturn);
-          else
-            grunt.log.ok('All Browser Tests Completed');
-        } else {
-          grunt.log.error(i);
-        }
-      }
+    if (!grunt.file.exists(json)) {
+      grunt.log.error('Source file "' + json + '" not found.');
+    } else {
+      var src = grunt.file.readJSON(json)
+      browserArray = loadArray(src);
+      spawn(src, command(0), 0, spawnReturn);
+    }
 
-      spawn(src, command(0), 0, spawnReturn)
+    this.async();
 
-    }, this.async());
   });
 
 };
