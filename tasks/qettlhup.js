@@ -69,8 +69,6 @@ module.exports = function(grunt) {
       }
 
       var spawnReturn = function(i){
-        console.log(i);
-        console.log(browserArray.length);
         if(typeof i === "number") {
           if(i < browserArray.length)
             spawn(src, command(i), i, spawnReturn);
