@@ -92,3 +92,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
  * __2013/05/01__ - _0.2.0_ - Adding support for multiple JSON files, rebuilding code architecture, adding example test script 
  * __2013/04/30__ - _0.1.0_ - Initial functional release 
+
+----
+The Able Few - [St. Louis NodeJS & Ruby on Rails development](http://theablefew.com/?utm_source=GitHub&utm_medium=link&utm_campaign=qettlhup)
