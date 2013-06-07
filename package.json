@@ -1,7 +1,7 @@
 {
   "name": "grunt-qettlhup",
   "description": "An easy way to run automated browser tests in Sauce Labs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/theablefew/grunt-qettlhup",
   "author": {
     "name": "Kyle Knight",
