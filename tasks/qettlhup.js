@@ -36,9 +36,10 @@ module.exports = function(grunt) {
         json = qettlhup.json;
 
     command = function(i) {
+      grunt.util._.extend(process.env, {BROWSER: browserArray[i]});
       return {
         cmd: qettlhup.test.lang,
-        args: [qettlhup.test.path, browserArray[i]]
+        args: [qettlhup.test.path]
       };
     };
 
@@ -59,7 +60,7 @@ module.exports = function(grunt) {
         for(var browsers in source[os]) {
           for(var i=0, browser=source[os][browsers]; i<browser.length; i++) {
             var full = os + ' - ' + browsers + ' - ' + browser[i].short_version;
-            var ident = (os + '' + browsers + '' + browser[i].short_version).toLowerCase().replace(/ /g, '');
+            var ident = (os + '' + browsers + '' + browser[i].short_version).toLowerCase().replace(/ /g, '').replace(/\./g, '');
 
             array.push(ident);
           }
